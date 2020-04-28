@@ -1,0 +1,28 @@
+{
+  "name": "crash-course-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export",
+    "deploy": "yarn build && yarn export && firebase deploy",
+    "run": "next start -p 8080"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^9.3.0",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0"
+  },
+  "devDependencies": {
+    "@types/node": "^13.9.1",
+    "@types/prismjs": "^1.16.0",
+    "@types/react": "^16.9.23",
+    "typescript": "^3.8.3"
+  }
+}

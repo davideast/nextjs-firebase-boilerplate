@@ -1,0 +1,6 @@
+node_modules
+yarn-error.log
+.next
+out
+.DS_Store
+.firebase
